@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* index.css */
+body {
+  /* @apply transition-colors duration-500 ease-in-out; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* .dark body {
+  background-color: #1a202c; 
+  color: white; 
+} */
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p, li, span {
+  font-family: 'Lora', serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
