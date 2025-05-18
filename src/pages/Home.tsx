@@ -19,8 +19,7 @@ const Home = () => {
         Hi, I'm Shashank Srivastava
       </h1>
       <p className="text-[13px] md:text-base lg:text-lg text-gray-200 max-w-2xl">
-        MERN Stack Developer | Building Scalable Web Apps with MongoDB, Express,
-        React & Node.js | Passionate About UI/UX & Performance.
+       MERN Stack Developer | Crafting Scalable Web Applications with MongoDB, Express, React, and Node.js | Focused on Clean UI/UX and Optimized Performance.
       </p>
 
       {/* CTA Button */}
