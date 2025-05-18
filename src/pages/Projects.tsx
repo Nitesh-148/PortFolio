@@ -1,11 +1,11 @@
 
-import { Project1, Project2, Project3 } from "../configs/icons";
+import { Project1, Project2, Project3,  Project4, Project5, Project6 } from "../configs/icons";
 
 const projects = [
   {
     title: "EssenceConnect Website",
     description:
-      "Personal portfolio built with React and Tailwind, featuring SEO, multilingual support, and email subscription.",
+     "EssenceConnect a responsive web app built with React and Tailwind CSS, featuring SEO, multilingual support, and email subscriptions to boost engagement.",
     image: Project1,
     tags: ["React", "Tailwind", "SEO", "Multilingual"],
     link: "#",
@@ -26,13 +26,37 @@ const projects = [
     tags: ["Vue.js", "CRUD", "Filters", "UI/UX"],
     link: "https://planmytasks.netlify.app/#/",
   },
+  {
+  title: "TalentPro Website Clone",
+  description:
+    "A responsive clone of the TalentPro website built using HTML and Tailwind CSS, with smooth animations powered by Animate.css.",
+  image: Project4,  
+  tags: ["HTML", "Tailwind CSS", "Animate.css", "Responsive Design"],
+  link: "https://nitesh-148.github.io/TalentPro_Clone/",
+},
+{
+  title: "toDesktop Website Clone",
+  description:
+    "A responsive clone of the toDesktop website built to improve my Tailwind CSS and layout skills using HTML, Tailwind CSS, and JavaScript.",
+  image: Project5,
+  tags: ["HTML", "Tailwind CSS", "JavaScript", "Responsive Design"],
+  link: "https://nitesh-148.github.io/TailwindCloneProject/",
+},
+{
+  title: "Pokémon Evolution",
+  description:
+    "A simple web app built using HTML, CSS, and Vue.js to explore Pokémon evolutions and learn the basics of Vue.",
+  image: Project6,
+  tags: ["HTML", "CSS", "Vue.js", "Learning Project"],
+  link: "https://your-pokemon-evolution-link.com",
+}
 ];
 
 const Projects = () => {
   return (
     <section className="w-full px-4 py-12 bg-gray-700 flex-1 min-h-full">
         <h2 className="text-3xl xl:text-4xl mb-12 font-bold text-center text-slate-200">
-          My Digital Toolbox
+          Digital Toolbox
         </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10">

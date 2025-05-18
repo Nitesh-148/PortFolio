@@ -1,5 +1,5 @@
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { FaLinkedin,FaGithub , FaTwitter, FaDownload } from "react-icons/fa";
+
 import { Photo } from "../configs/icons";
 
 const Home = () => {
@@ -18,26 +18,28 @@ const Home = () => {
       <h1 className="text-2xl md:text-4xl lg:text-5xl text-white font-extrabold mb-4 drop-shadow-lg">
         Hi, I'm Shashank Srivastava
       </h1>
-      <p className="text-base lg:text-xl text-gray-200 max-w-2xl">
-        A passionate Full Stack Developer | React | JavaScript | Tailwind CSS |
-        UI/UX Enthusiast
+      <p className="text-[13px] md:text-base lg:text-lg text-gray-200 max-w-2xl">
+        MERN Stack Developer | Building Scalable Web Apps with MongoDB, Express,
+        React & Node.js | Passionate About UI/UX & Performance.
       </p>
 
       {/* CTA Button */}
-      <Link
-        to="/projects"
-        className="mt-6 inline-block bg-indigo-600 hover:bg-indigo-700 text-sm lg:text-lg text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300"
+      <a
+        href="../../public/assets/Shashank_Resume.pdf"
+        download="Shashank-Resume.pdf"
+        className="mt-6 inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-sm lg:text-base text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 group"
       >
-        View My Work
-      </Link>
+        <span>Download CV</span>
+        <FaDownload />
+      </a>
 
       {/* Social Media Icons */}
-      <div className="hidden lg:flex space-x-6 mt-6 text-2xl">
+      <div className="hidden md:flex space-x-6 mt-6 text-2xl">
         <a
           href="https://github.com/Nitesh-148"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-300 hover:text-white transition"
+          className="text-gray-300 hover:text-yellow-200 transition"
         >
           <FaGithub />
         </a>

@@ -104,7 +104,7 @@ const MobileSidebar = ({
           href="https://github.com/Nitesh-148"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-300 hover:text-gray-400 text-2xl transition"
+          className="text-gray-300 hover:text-yellow-200 text-2xl transition"
         >
           <FaGithub />
         </a>
