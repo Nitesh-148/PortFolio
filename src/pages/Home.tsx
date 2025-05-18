@@ -25,7 +25,7 @@ const Home = () => {
 
       {/* CTA Button */}
       <a
-        href="../../public/assets/Shashank_Resume.pdf"
+        href="/Shashank_Resume.pdf"
         download="Shashank-Resume.pdf"
         className="mt-6 inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-sm lg:text-base text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 group"
       >
