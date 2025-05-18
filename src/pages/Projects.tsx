@@ -48,7 +48,7 @@ const projects = [
     "A simple web app built using HTML, CSS, and Vue.js to explore Pokémon evolutions and learn the basics of Vue.",
   image: Project6,
   tags: ["HTML", "CSS", "Vue.js", "Learning Project"],
-  link: "https://your-pokemon-evolution-link.com",
+  link: "https://github.com/Nitesh-148/Pokemon_Evalution",
 }
 ];
 
